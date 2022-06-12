@@ -83,7 +83,7 @@ class Acciones:
             fecha = input("Indique la fecha de la cita (formato YYYY-MM-DD): ")
             editar = citaP.editarFecha(no_cita,fecha)
         elif(eleccion == "5"):
-            notas = input("Escriba sus notas: ")
+            notas = input("Escriba sus notas para esta consulta: ")
             editar = citaP.editarNotas(no_cita,notas)
         elif(eleccion == "6"):
             exit()
@@ -116,4 +116,4 @@ class Acciones:
         if(eliminar[0] >= 1):
             print(f"Cita número {no_cita} eliminada")
         else:
-            print("No se pudo eliminar nota, intente más tarde")
+            print("No se pudo eliminar cita, intente más tarde")
