@@ -95,7 +95,7 @@ class Acciones:
         if(editar[0] >= 1):
             print(f"\n Cita numero {no_cita} editada")
         else:
-            print("No se pudo editar nota, intente más tarde")
+            print("No se pudo editar cita, intente más tarde")
 
     def borrar(self,doctor):
         print(f"{doctor[1]} !! Estás por borrar una cita")
